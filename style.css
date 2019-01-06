@@ -14,4 +14,6 @@ selector {
 /*Type selector*/
 
 p { /*select all <p> */
-  font-size: 16px, /* ?pt, 100%, 1em */;
+  font-size: 1em; /* ?pt, 100%, 1em */;
+  line-height: 1.5em;
+}
