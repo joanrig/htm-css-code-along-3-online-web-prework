@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Elsie+Swash+Caps:400,900');
 @import url('https://fonts.googleapis.com/css?family=Clicker+Script');
-/* This 
-is a 
+/* This is a 
 comment */
 
 /*CSS Syntax:
@@ -12,7 +11,6 @@ selector {
   property: value;
 }
 */
-
 /*Type selector*/
 
 p { /*select all <p> */
@@ -32,3 +30,11 @@ figcaption {
   color: #777;
   text-align: right;
 } 
+
+/* class selectors (applied to as many elements as you like)*/
+
+.milk-text { /* select elements with class "milk-text"*/
+  font: bold 2.6em 'Elsie Swash Caps', cursive;
+  color: white;
+  text-shadow: 0 2px 3px #000;
+}
