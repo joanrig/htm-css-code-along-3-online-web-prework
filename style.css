@@ -6,5 +6,12 @@ comment */
 
 selector {
   property: value;
-  
+  property: value;
+  property: value;
 }
+*/
+
+/*Type selector*/
+
+p { /*select all <p> */
+  font-size: 16px, /* ?pt, 100%, 1em */;
