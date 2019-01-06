@@ -43,7 +43,9 @@ figcaption {
 #logo /*select elements with ID = logo*/
   {
     background-color: aqua;
+  }
     
 /* Descendent Selector*/
-
-  }
+#logo h1 { /*select <h1> fi inside the id="logo" */
+  font-family: 'Clicker Script', cursive;
+}
